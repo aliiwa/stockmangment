@@ -1,0 +1,2 @@
+# stockmangment
+Finaly  Porject ( stockmangment )
