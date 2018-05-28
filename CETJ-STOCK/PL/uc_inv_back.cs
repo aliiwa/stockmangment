@@ -61,5 +61,13 @@ namespace CETJ_STOCK.PL
             //    dgv_inv_back.Rows[1].Height = 30;
             //}
         }
+
+       
+
+        private void btn_search_Click(object sender, EventArgs e)
+        {
+           // txt_spend_code.Text = r ;
+            this.dgv_category.DataSource = rpt.SEARCH_RE_SPEND_1(txt_search.Text);
+        }
     }
 }

@@ -59,14 +59,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CETJ-STOCK.exe" size="490384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CETJ-STOCK.exe" size="490896">
       <assemblyIdentity name="CETJ-STOCK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>J/Vb8pPy3MEg1XRlg5IN2jSJwu4=</dsig:DigestValue>
+        <dsig:DigestValue>1lgx1Ebz6bcMqfKJoUb2Oq40P1s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
