@@ -119,3 +119,4 @@ D:\Project\stockmangment\CETJ-STOCK\obj\Debug\CETJ_STOCK.RPT.frm_report.resource
 D:\Project\stockmangment\CETJ-STOCK\obj\Debug\CETJ-STOCK.csproj.GenerateResource.Cache
 D:\Project\stockmangment\CETJ-STOCK\obj\Debug\CETJ-STOCK.exe.manifest
 D:\Project\stockmangment\CETJ-STOCK\obj\Debug\CETJ-STOCK.application
+D:\Project\stockmangment\CETJ-STOCK\obj\Debug\CETJ-STOCK.csprojResolveAssemblyReference.cache

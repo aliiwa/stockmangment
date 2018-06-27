@@ -34,16 +34,18 @@
             this.txt_username = new System.Windows.Forms.TextBox();
             this.txt_password = new System.Windows.Forms.TextBox();
             this.BunifuFlatButton10 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("JF Flat", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(333, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 39);
+            this.label1.Size = new System.Drawing.Size(232, 55);
             this.label1.TabIndex = 0;
             this.label1.Text = "تسجيل الدخول";
             // 
@@ -79,32 +81,32 @@
             this.btn_save.Text = "دخول";
             this.btn_save.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_save.Textcolor = System.Drawing.Color.White;
-            this.btn_save.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_save.TextFont = new System.Drawing.Font("JF Flat", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
             // txt_username
             // 
-            this.txt_username.BackColor = System.Drawing.SystemColors.Menu;
-            this.txt_username.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_username.BackColor = System.Drawing.Color.White;
+            this.txt_username.Font = new System.Drawing.Font("JF Flat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_username.ForeColor = System.Drawing.Color.DarkGray;
             this.txt_username.Location = new System.Drawing.Point(329, 149);
             this.txt_username.Name = "txt_username";
             this.txt_username.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txt_username.Size = new System.Drawing.Size(248, 27);
+            this.txt_username.Size = new System.Drawing.Size(248, 35);
             this.txt_username.TabIndex = 0;
             this.txt_username.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_username.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_username_KeyDown);
             // 
             // txt_password
             // 
-            this.txt_password.BackColor = System.Drawing.SystemColors.Menu;
-            this.txt_password.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_password.BackColor = System.Drawing.Color.White;
+            this.txt_password.Font = new System.Drawing.Font("JF Flat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_password.ForeColor = System.Drawing.Color.DarkGray;
             this.txt_password.Location = new System.Drawing.Point(329, 217);
             this.txt_password.Name = "txt_password";
             this.txt_password.PasswordChar = '*';
             this.txt_password.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txt_password.Size = new System.Drawing.Size(248, 27);
+            this.txt_password.Size = new System.Drawing.Size(248, 35);
             this.txt_password.TabIndex = 1;
             this.txt_password.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_password.KeyDown += new System.Windows.Forms.KeyEventHandler(this.login_KeyDown);
@@ -143,12 +145,23 @@
             this.BunifuFlatButton10.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BunifuFlatButton10.Click += new System.EventHandler(this.BunifuFlatButton10_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(299, 325);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // frm_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(614, 384);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BunifuFlatButton10);
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.btn_save);
@@ -158,6 +171,7 @@
             this.Name = "frm_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_login";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,5 +184,6 @@
         private System.Windows.Forms.TextBox txt_username;
         private System.Windows.Forms.TextBox txt_password;
         internal Bunifu.Framework.UI.BunifuFlatButton BunifuFlatButton10;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
